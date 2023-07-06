@@ -16,10 +16,10 @@ Open the dev server which is served at: `http://localhost:3002`
 
 # Demostration
 
-- Once loaded the page will initialize the Apollo client with `InMemoryCache` cache.
-- On mount the App component will use `useQuery` with the `getPageQuery`, which will query for page panel data.
+- Once loaded, the page will initialize the Apollo client with `InMemoryCache` cache.
+- On mount the App component will use the `useQuery` hook with the query `getPageQuery`, which will query for page panel data.
 - When data is fetched it will be printed on to the page.
-- Compare the data on the page (or look inside the client cache in the inspector) with the actual data that we receive over the network.
+- Compare the data on the page (or look inside the client cache in the inspector) with the data that we receive over the network.
 
 # The issue
 
